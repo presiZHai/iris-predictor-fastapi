@@ -64,21 +64,18 @@ Endpoint
 * POST /predict: Predicts the species of an Iris flower.
 
 Request Body
-    ```json
     {
     "sepal_length": 5.1,
     "sepal_width": 3.5,
     "petal_length": 1.4,
     "petal_width": 0.2
     }
-    ```
+
 Response
-    ```json
     {
     "predicted_class": 0,
     "predicted_class_name": "setosa"
     }
-    ```
 
 ![API Endpoint](templates/iris.png)
 
