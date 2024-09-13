@@ -48,17 +48,12 @@ This project is a web application for predicting the species of Iris flowers usi
 
 4. **Train the model**
 
-Run the following command to train the model. This will create a file named iris_model.pkl containing the trained model.
-    ```bash
-    python train_model.py
-    ```
+Run the following command to train the model: ```python train_model.py```
+This will create a file named iris_model.pkl containing the trained model.
 
 5. **Run the application**
 
-You can start the FastAPI application by running:
-    ```bash
-    python app.py
-    ```
+You can start the FastAPI application by running: ```python app.py```
 The application will be available at http://127.0.0.1:8000.
 
 ![Prediction](templates/iris-app.png)
@@ -76,12 +71,14 @@ Request Body
     "petal_length": 1.4,
     "petal_width": 0.2
     }
+    ```
 Response
     ```json
     {
     "predicted_class": 0,
     "predicted_class_name": "setosa"
     }
+    ```
 
 ![API Endpoint](templates/iris.png)
 
